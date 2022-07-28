@@ -1,0 +1,24 @@
+.dropdown {
+    display: flex;
+    align-items: center;
+}
+.form-select {
+    font-size: 18px;
+    line-height: 26px;
+    color: #495057;
+    opacity: .75;
+    border: 1px solid #CED4DA;
+    padding: 6px 12px;
+}
+.shadow-none {
+    box-shadow: none;
+}
+.rounded-0 {
+    border-radius: 0;
+}
+.card-item {
+    display: flex;
+}
+iframe {
+    width: 100%;
+}
