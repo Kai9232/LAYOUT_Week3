@@ -21,8 +21,10 @@
 .bg-lightPink {
     background-color: $lightPink;
 }
-.bg-black {
-    background-color: $black;
+.bg-homeBanner {
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 .bg-white {
     background-color: $white;

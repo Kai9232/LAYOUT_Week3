@@ -25,6 +25,15 @@
 .nav-link:hover {
     color: $black;
 }
+.hamburgerMenu {
+    display: none;
+    width: 40px;
+    height: 40px;
+    color: $white;
+    @include mobile {
+        display: block;
+    };
+}
 .bg-primary {
     background-color: $primary;
 }
