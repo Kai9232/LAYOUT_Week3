@@ -22,7 +22,4 @@
 iframe {
     width: 100%;
     height: 465px;
-    @include mobile {
-        height: 208px;
-    }
 }

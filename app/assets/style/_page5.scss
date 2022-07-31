@@ -4,7 +4,7 @@
 .navBlog-xs {
     @include mobile {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-right: 0;
         margin-left: 0;
     }

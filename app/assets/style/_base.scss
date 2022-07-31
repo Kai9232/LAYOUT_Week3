@@ -1,11 +1,11 @@
 // 斷點設定
 @mixin pad {
-    @media(max-width: 768px) {
+    @media(max-width: 992px) {
         @content
     }
 }
 @mixin mobile {
-    @media(max-width: 375px) {
+    @media(max-width: 767px) {
         @content
     }
 }
@@ -524,6 +524,12 @@ a {
         margin-right: $spacer*1;
     };
 }
+.mx-md-0 {
+    @include pad {
+        margin-right: 0;
+        margin-left: 0;
+    };
+}
 .p-md-0 {
     @include pad {
         padding: 0;
@@ -775,4 +781,9 @@ a {
 }
 .text-justify {
     text-align: justify;
+}
+.text-xs-center {
+    @include mobile {
+        text-align: center;
+    };
 }
