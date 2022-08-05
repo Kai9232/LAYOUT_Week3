@@ -16,14 +16,42 @@
     margin-right: -32px;
     margin-left: -32px;
     @include mobile {
-        display: none;
+        display: block;
+        background-color: $primary;
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 1s;
+        position: absolute;
+        z-index: 2;
+        top: 80px;
+        left: 0;
+        right: 0;
+        margin-right: 0;
+        margin-left: 0;
     };
 }
-.nav-link {
-    display: block;
+.navbar-nav li {
+    @include mobile {
+        border-top: 1px dashed $white;
+    };
 }
-.nav-link:hover {
+.navbar-nav_show .navbar-nav {
+    max-height: 260px;
+}
+.navbar-nav-link {
+    display: block;
+    @include mobile {
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    };
+}
+.navbar-nav-link:hover {
     color: $black;
+    @include mobile {
+        background-color: $lightPink;
+        color: $secondary;
+    };
 }
 .hamburgerMenu {
     display: none;
@@ -44,4 +72,7 @@
     @include mobile {
         display: none;
     };
+}
+.nav-link:hover {
+    color: $black;
 }

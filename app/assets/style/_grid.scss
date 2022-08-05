@@ -1,0 +1,70 @@
+.row {
+    display: flex;
+    align-items: flex-start;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+.col-3 {
+    width: 25%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-4 {
+    width: 33.3333%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-5 {
+    width: 40%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-6 {
+    width: 50%;
+}
+.col-7 {
+    width: 60%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-8 {
+    width: 66.6667%;
+}
+.col-md-3 {
+    @include pad {
+        width: 25%;
+        padding-right: 12px;
+        padding-left: 12px;
+    };
+}
+.col-md-6 {
+    @include pad {
+        width: 50%;
+        padding-right: 12px;
+        padding-left: 12px;
+    };
+}
+.col-md-9 {
+    @include pad {
+        width: 75%;
+        padding-right: 12px;
+        padding-left: 12px;
+    };
+}
+.col-md-10 {
+    @include pad {
+        width: 83.3333%;
+        padding-right: 12px;
+        padding-left: 12px;
+    };
+}
+.col-md-12 {
+    @include pad {
+        width: 100%;
+    };
+}
+.col-xs-12 {
+    @include mobile {
+        width: 100%;
+    };
+}

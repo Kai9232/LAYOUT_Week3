@@ -22,9 +22,41 @@
     background-color: $lightPink;
 }
 .bg-homeBanner {
-    background: url(../images/bg.png) no-repeat;
+    background: url(../images/index-bg.png) no-repeat;
     background-size: cover;
     background-position: center center;
+    @include pad {
+        background: url(../images/index-bg-md.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    };
+    @include mobile {
+        background: url(../images/index-bg-sm.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    };
+}
+.bg-CobrandingD {
+    background: url(../images/home-section4-1.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 240px;
+    @include mobile {
+        background: url(../images/home-section4-1-sm.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    };
+}
+.bg-CobrandingY {
+    background: url(../images/home-section4-2.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 240px;
+    @include mobile {
+        background: url(../images/home-section4-2-sm.png) no-repeat;
+        background-size: cover;
+        background-position: center center;
+    };
 }
 .bg-white {
     background-color: $white;

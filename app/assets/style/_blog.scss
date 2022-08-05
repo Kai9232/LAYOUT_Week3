@@ -1,14 +1,6 @@
 .bg-secondary {
     background-color: $secondary;
 }
-.navBlog-xs {
-    @include mobile {
-        display: flex;
-        justify-content: space-around;
-        margin-right: 0;
-        margin-left: 0;
-    }
-}
 .blog-image:hover {
     opacity: 0.8;
 }
