@@ -27,7 +27,6 @@
 .btn-large {
     padding: 16px 176px;
     @include mobile {
-        width: 100%;
         padding: 16px 0px;
     };
 }
