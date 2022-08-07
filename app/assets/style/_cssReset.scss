@@ -46,3 +46,14 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+    @include pad {
+        padding: 0 36px;;
+    };
+    @include mobile {
+        padding: 0 12px;
+    }
+}
