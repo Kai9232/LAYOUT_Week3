@@ -45,6 +45,35 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.container {
+  max-width: 1296px;
+  margin: 0 auto; }
+  @media (max-width: 992px) {
+    .container {
+      padding: 0 36px; } }
+  @media (max-width: 767px) {
+    .container {
+      padding: 0 12px; } }
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; }
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Noto Sans TC, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif; }
+
+a {
+  text-decoration: none; }
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -147,35 +176,6 @@ table {
 
 .btn-medium {
   padding: 16px 170px; }
-
-*, *::before, *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
-
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle; }
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover; }
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, Noto Sans TC, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif; }
-
-a {
-  text-decoration: none; }
-
-.container {
-  max-width: 1296px;
-  margin: 0 auto; }
-  @media (max-width: 992px) {
-    .container {
-      padding: 0 36px; } }
-  @media (max-width: 767px) {
-    .container {
-      padding: 0 12px; } }
 
 .border-0 {
   border: 0px; }
